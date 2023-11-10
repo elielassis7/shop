@@ -1,9 +1,10 @@
 import { globalCss } from './index'
 
-export const globalStyle = globalCss({
+export const GlobalStyle = globalCss({
   '*': {
     margin: 0,
     padding: 0,
+    boxSizing: 'border-box',
   },
   body: {
     backgroundColor: '$gray900',
